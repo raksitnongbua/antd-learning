@@ -1,8 +1,17 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import { Button, Typography } from 'antd';
 
 const Home = () => {
-  return <> </>;
+  const { Title } = Typography;
+  return (
+    <>
+      <Typography>
+        <Title>Home</Title>
+      </Typography>
+      <Button type='primary' danger>
+        Button
+      </Button>
+    </>
+  );
 };
 
 export default Home;
